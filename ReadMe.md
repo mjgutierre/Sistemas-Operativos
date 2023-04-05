@@ -70,6 +70,13 @@ El programa de restauración cuenta con los siguientes requerimientos de diseño
 ### Uso
 
 
+Windows 
+
+        cd Restaurar
+        
+        py Restaurar.py
+
+        
 
 Entrega
 Una vez completada la práctica, se debe entregar un archivo comprimido con los siguientes elementos:
