@@ -14,7 +14,7 @@ Maria José Gutiérrez Estrada. ***mjgutierre@eafit.edu.co***
 2. [Parte 1: Descripción Programa Backup](https://github.com/mjgutierre/Sistemas-Operativos/blob/master/ReadMe.md#parte-1-descripción-programa-backup)
 3. [Parte 1. Descripción Técnica](https://github.com/mjgutierre/Sistemas-Operativos#uso)
 4. [Parte 2. Descripción Programa Restauración](https://github.com/mjgutierre/Sistemas-Operativos#parte-2-crear-el-programa-de-restauración)
-5. [Parte 2. Descripción Técnica]
+5. [Parte 2. Descripción Técnica](https://github.com/mjgutierre/Sistemas-Operativos/blob/master/ReadMe.md#uso-1)
 
 # Objetivo
 El objetivo de esta práctica evaluable es crear un programa que permita realizar una copia de seguridad de una carpeta en fragmentos de 512 MB, y otro programa que permita restaurar la copia de seguridad a su estado original. El programa debe ser capaz de trabajar con archivos de cualquier tamaño.
@@ -58,7 +58,6 @@ Windows
         py Security.py
 
 
-
         $ sudo python3 Security.py
 
 
@@ -75,7 +74,6 @@ El programa de restauración cuenta con los siguientes requerimientos de diseño
 Windows 
 
         cd Restaurar
-        
         
         py Restaurar.py
 
