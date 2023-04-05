@@ -53,9 +53,11 @@ Luego, podrá correr el programa ejecutando el siguiente comando en la terminal:
 
 Windows 
 
+        cd Backup
+        
         py Security.py
 
-MAC
+
 
         $ sudo python3 Security.py
 
@@ -73,6 +75,7 @@ El programa de restauración cuenta con los siguientes requerimientos de diseño
 Windows 
 
         cd Restaurar
+        
         
         py Restaurar.py
 
