@@ -4,14 +4,16 @@ Sistemas Operativos
 
 ## Datos de los estudiantes 
 Paulina Ocampo Duque ***mpocampod@eafit.edu.co***
+
 Juan Jose Sanchez Cortes ***jjsanchez@eafit.edu.co***
+
 Maria José Gutiérrez Estrada. ***mjgutierre@eafit.edu.co***
 
 ## Tabla de contenido 
-1. [Objetivo]
-2. [Parte 1: Descripción Programa Backup]
-3. [Parte 1. Descripción Técnica]
-4. [Parte 2. Descripción Programa Restauración]
+1. [Objetivo](https://github.com/mjgutierre/Sistemas-Operativos#objetivo)
+2. [Parte 1: Descripción Programa Backup](https://github.com/mjgutierre/Sistemas-Operativos/blob/master/ReadMe.md#parte-1-descripción-programa-backup)
+3. [Parte 1. Descripción Técnica](https://github.com/mjgutierre/Sistemas-Operativos#uso)
+4. [Parte 2. Descripción Programa Restauración](https://github.com/mjgutierre/Sistemas-Operativos#parte-2-crear-el-programa-de-restauración)
 5. [Parte 2. Descripción Técnica]
 
 # Objetivo
@@ -37,19 +39,21 @@ Ejemplo
         source_folder = "C:/Users/USER/Downloads/FotosImportantes"
         destination_folder = "D:/Backup"
 
+
 Al estar dentro de la carpeta procedemos a crear un entorno virtual o instalar los requerimientos desde nuestra consola en la maquina local.
 
-Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
+- Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
 
         .\Scripts\activate 
 
-Para instalar los requerimientos del txt podemos correr el siguiente comando:
+- Para instalar los requerimientos del txt podemos correr el siguiente comando:
 
         pip install requirements.txt
 
 Luego, podrá correr el programa ejecutando el siguiente comando en la terminal:
 
 Windows 
+
         py Security.py
 
 MAC
