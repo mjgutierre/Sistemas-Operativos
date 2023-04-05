@@ -17,7 +17,6 @@ El objetivo de esta práctica evaluable es crear un programa que permita realiza
 
 ## Parte 1: Descripción Programa Backup
 
-Crear el programa de copia de seguridad
 El programa de copia de seguridad cuenta con los siguientes requerimientos de diseño:
 
 - Recibe como entrada la ruta de la carpeta que se desea copiar (source_folder) y la ruta de la carpeta donde se guardarán los fragmentos de la copia de seguridad (destination_folder).
@@ -26,7 +25,7 @@ El programa de copia de seguridad cuenta con los siguientes requerimientos de di
 - Imprime un mensaje indicando que la copia de seguridad se ha completado con éxito.
 - Crea un archivo en formato JSON en la carpeta destino con la composición del archivo backup, es decir, con los archivos respaldados, sus tamaño y cuantos archivos de 512 MB ser crearon.
 
-### USO
+### Uso
 
 Para usar este programa de copia de seguridad, se necesitará especificar la ruta de la carpeta fuente y de la carpeta destino.
 
@@ -56,11 +55,14 @@ MAC
 
 
 ## Parte 2: Crear el programa de restauración
-El programa de restauración debe cumplir los siguientes requisitos:
+El programa de restauración cuenta con los siguientes requerimientos de diseño:
 
-- Recibir como entrada la ruta de la carpeta de la copia de seguridad y la ruta de la carpeta donde se restaurarán los archivos.
-- Leer los fragmentos de la carpeta de la copia de seguridad en el orden adecuado y restaurarlos en la carpeta original.
-- Imprimir un mensaje indicando que la restauración se ha completado con éxito.
+- Recibe como entrada la ruta de la carpeta de la copia de seguridad y la ruta de la carpeta donde se restaurarán los archivos.
+- Lee los fragmentos de la carpeta de la copia de seguridad en el orden adecuado y restaurarlos en la carpeta original.
+- Imprime un mensaje indicando que la restauración se ha completado con éxito.
+
+### Uso
+
 
 
 Entrega
