@@ -25,13 +25,13 @@ Al estar dentro de la carpeta procedemos a activar un entorno virtual o instalar
 
     cd BT-IO
 
-Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
+- Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
 
-    .\Scripts\activate 
+      .\Scripts\activate 
     
-Para instalar los requerimientos del txt podemos correr el siguiente comando:
+- O instalar los requerimientos del txt podemos correr el siguiente comando:
 
-    pip install requirements.txt
+      pip install requirements.txt
 
 
 ### Servidor
