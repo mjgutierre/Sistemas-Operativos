@@ -41,6 +41,8 @@ Ejemplo
 
 Al estar dentro de la carpeta procedemos a crear un entorno virtual o instalar los requerimientos desde nuestra consola en la maquina local.
 
+        cd Backup-Restore
+
 - Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
 
         .\Scripts\activate 
@@ -51,14 +53,11 @@ Al estar dentro de la carpeta procedemos a crear un entorno virtual o instalar l
 
 Luego, podrá correr el programa ejecutando el siguiente comando en la terminal:
 
-Windows 
 
         cd Backup
         
         py Security.py
 
-
-        $ sudo python3 Security.py
 
 
 ## Parte 2: Crear el programa de restauración
