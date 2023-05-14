@@ -21,13 +21,24 @@ Los objetivos específicos de esta práctica son:
 
 ## Guia de Uso
 
+Al estar dentro de la carpeta procedemos a activar un entorno virtual o instalar los requerimientos desde nuestra consola en la maquina local.
+
+    cd BT-IO
+
+Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
+
+    .\Scripts\activate 
+    
+Para instalar los requerimientos del txt podemos correr el siguiente comando:
+
+    pip install requirements.txt
 
 
 Servidor
 
-  py btserver.py
+    py btserver.py
   
   
 Cliente
   
-  py btclient.py
+    py btclient.py
