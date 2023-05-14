@@ -19,4 +19,15 @@ Los objetivos específicos de esta práctica son:
 - Evaluar el uso de la Entrada y la Salida de la computadora (IO) en la implementación del programa.
 - Presentar un informe oral que explique el diseño y la forma de uso del programa desarrollado.
 
-Se evaluará la capacidad del equipo para diseñar e implementar un programa Cliente/Servidor para un chat de texto, así como su capacidad para utilizar los puertos Bluetooth y los sockets por TCP/IP para la comunicación entre el Cliente y el Servidor. También se evaluará la capacidad del equipo para explicar el diseño y la forma de uso del programa desarrollado en el informe presentado.
+## Guia de Uso
+
+
+
+Servidor
+
+  py btserver.py
+  
+  
+Cliente
+  
+  py btclient.py
