@@ -21,9 +21,7 @@ Los objetivos específicos de esta práctica son:
 
 ## Guia de Uso
 
-Al estar dentro de la carpeta procedemos a activar un entorno virtual o instalar los requerimientos desde nuestra consola en la maquina local.
-
-    cd BT-IO
+Procedemos a activar un entorno virtual o instalar los requerimientos desde nuestra consola en la maquina local.
 
 - Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
 
@@ -33,6 +31,9 @@ Al estar dentro de la carpeta procedemos a activar un entorno virtual o instalar
 
       pip install requirements.txt
 
+Entramos a la carpeta donde se encuentran los archivos 
+
+    cd BT-IO
 
 ### Servidor
 
