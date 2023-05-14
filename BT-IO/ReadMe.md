@@ -43,3 +43,11 @@ Entramos a la carpeta donde se encuentran los archivos
 ### Cliente
   
     py btclient.py
+    
+    
+    
+## Referencias
+
+- [Bluetooth socket Programming](https://roboticsknowledgebase.com/wiki/networking/bluetooth-sockets/#bluetooth-socket-programming-using-bash)
+- [PyBluez Documentation](https://pybluez.readthedocs.io/en/latest/api/discover_devices.html)
+- [Bluetooth Chat](https://github.com/NeuralNine/youtube-tutorials/tree/main/Bluetooth%20Chat)
