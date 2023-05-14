@@ -34,11 +34,11 @@ Para instalar los requerimientos del txt podemos correr el siguiente comando:
     pip install requirements.txt
 
 
-Servidor
+### Servidor
 
     py btserver.py
   
   
-Cliente
+### Cliente
   
     py btclient.py
