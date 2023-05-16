@@ -25,7 +25,7 @@ Procedemos a activar un entorno virtual o instalar los requerimientos desde nues
 
 - Para activar el entorno virtual podemos ejecutar en la carpeta el siguiente comando:
 
-      .\Scripts\activate 
+      .\venv\Scripts\activate 
     
 - O instalar los requerimientos del txt podemos correr el siguiente comando:
 
