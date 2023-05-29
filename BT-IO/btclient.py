@@ -1,4 +1,3 @@
-import bluetooth
 import socket
 import threading
 import PySimpleGUI as sg
@@ -61,10 +60,10 @@ def write():
             client.send(message.encode('ascii'))
 
 # Starting Threads For Listening And Writing
-receive_thread = threading.Thread(target=receive, args=(client,))#,))
+receive_thread = threading.Thread(target=receive(), args=(client,))#,))
 receive_thread.start()
 
-write_thread = threading.Thread(target=write)
+write_thread = threading.Thread(target=write())
 write_thread.start()
 
 # Close Window and Connection When Done

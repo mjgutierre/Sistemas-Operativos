@@ -1,5 +1,8 @@
+#Este código en Python es un ejemplo de cómo crear un servidor Bluetooth utilizando el módulo socket. 
+#El servidor se encarga de recibir y enviar datos a través de una conexión Bluetooth.
 import socket
 
+#protocolo RFCOMM
 server = socket.socket(socket.AF_BLUETOOTH, socket.SOCK_STREAM, socket.BTPROTO_RFCOMM)  # RFCOMM specific protocol
 server.bind(("e8:d0:fc:fe:12:9e", 4))  # MAC Address and Channel 4
 server.listen(1)
