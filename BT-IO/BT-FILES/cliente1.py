@@ -53,7 +53,7 @@ try:
             client.send(str(file_size).encode('utf-8'))
             # Se lee el archivo y se envían fragmentos de datos al servidor
             with open(file_path, 'rb') as file:
-                chunk_size = 1024  # Tamaño del fragmento (puedes ajustarlo según tus necesidades)
+                chunk_size = 1024  
                 while True:
                     chunk_data = file.read(chunk_size)
                     if not chunk_data:
