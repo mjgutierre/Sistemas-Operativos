@@ -33,11 +33,29 @@ Como ejecutar?
 
 Recordar que para efectos de nuestro codigo se debera cambiar las siguientes lineas en el servidor y cliente para que pueda ser efectiva la conexion.   
 
+ [Servidor](https://github.com/mjgutierre/Sistemas-Operativos/blob/master/BT-FILES/server2.py#L29)
     
-En un dispositivo ejectuar
+    server.bind(("e8:d0:fc:fe:12:9e", 4))
+ 
+ [Cliente](https://github.com/mjgutierre/Sistemas-Operativos/blob/master/BT-FILES/cliente1.py#L29)
+ 
+    client.connect(("e8:d0:fc:fe:12:9e", 4))
+
+    
+Luego clonamos el repositorio con 
+
+    git clone https://github.com/mjgutierre/Sistemas-Operativos.git
+    
+ y nos dirigimos a la carpeta en donde está nuestra practica
+ 
+    cd BT-FILES
+    
+y ahora en un dispositivo podemos ejectuar
    
       py servidor2.py      
 
-En otro dispositivo ejecutar
+En otro dispositivo podemos ejecutar
     
       py cliente1.py
+      
+ Y saldra como resultado la conexion aceptada en el servidor
