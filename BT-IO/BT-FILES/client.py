@@ -1,5 +1,6 @@
 import socket
 import os
+import struct
 import tqdm
 
 # Función para manejar la transferencia de archivos desde el cliente al servidor
@@ -77,3 +78,5 @@ except OSError:
 print("Disconnected")
 
 client.close()
+
+
